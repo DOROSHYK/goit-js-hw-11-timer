@@ -1,22 +1,42 @@
 body {
-  text-shadow: 0 -1px 0 rgb(14, 11, 31);
-  border: 2px solid rgb(15, 201, 170);
+  text-align: center;
+  background: #00ecb9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.countdown-title {
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+.timer {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.field {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: inline-block;
+}
+
+.value {
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816a;
+  display: inline-block;
 }
 
 .label {
   display: block;
-  padding: 10px;
-}
-
-.timer {
-  color: rgb(6, 6, 145);
-  display: flex;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 auto;
-  position: absolute;
-  top: 10%;
-  left: 35%;
-  border: 2px rgb(15, 201, 170) solid;
+  padding-top: 5px;
+  font-size: 16px;
 }
